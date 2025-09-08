@@ -22,7 +22,7 @@ export const artworks: Artwork[] = [
     technique: 'mixed media on panel',
     dimensions: '51 x 69 x 0.6 cm',
     series: 'Farbkörper',
-    description: 'Pigment behaves here as matter. I layer, compress and partly plane it off.'<br>'The surface stores gradients of pressure, not decorative harmony.',
+    description: 'Pigment behaves here as matter. I layer, compress and partly plane it off.  The surface stores gradients of pressure, not decorative harmony.',
     // файл ДОЛЖЕН лежать: public/images/farbkoerper/blau-2-2022.jpg
     image: withBase('images/farbkoerper/fkb - 01.jpg'),
     featured: true,
@@ -34,7 +34,7 @@ export const artworks: Artwork[] = [
     technique: 'mixed media on panel',
     dimensions: '51 x 69 x 0.6 cm',
     series: 'Farbkörper',
-    description: 'Pigment behaves here as matter. I layer, compress and partly plane it off.',
+    description: 'Pigment behaves here as matter. I layer, compress and partly plane it off.  The surface stores gradients of pressure, not decorative harmony.',
     // файл ДОЛЖЕН лежать: public/images/farbkoerper/blau-2-2022.jpg
     image: withBase('images/farbkoerper/fkb - 02.jpg'),
     featured: true,
@@ -46,7 +46,7 @@ export const artworks: Artwork[] = [
     technique: 'mixed media on panel',
     dimensions: '51 x 69 x 0.6 cm',
     series: 'Farbkörper',
-    description: 'Pigment behaves here as matter. I layer, compress and partly plane it off.',
+    description: 'Pigment behaves here as matter. I layer, compress and partly plane it off. The surface stores gradients of pressure, not decorative harmony.',
     // файл ДОЛЖЕН лежать: public/images/farbkoerper/blau-2-2022.jpg
     image: withBase('images/farbkoerper/fkb - 03.jpg'),
     featured: true,
@@ -58,7 +58,7 @@ export const artworks: Artwork[] = [
     technique: 'mixed media on panel',
     dimensions: '51 x 69 x 0.6 cm',
     series: 'Farbkörper',
-    description: 'Pigment behaves here as matter. I layer, compress and partly plane it off.',
+    description: 'Pigment behaves here as matter. I layer, compress and partly plane it off.  The surface stores gradients of pressure, not decorative harmony.',
     // файл ДОЛЖЕН лежать: public/images/farbkoerper/blau-2-2022.jpg
     image: withBase('images/farbkoerper/fkb - 04.jpg'),
     featured: true,
@@ -70,7 +70,7 @@ export const artworks: Artwork[] = [
     technique: 'mixed media on panel',
     dimensions: '51 x 69 x 0.6 cm',
     series: 'Farbkörper',
-    description: 'Pigment behaves here as matter. I layer, compress and partly plane it off.',
+    description: 'Pigment behaves here as matter. I layer, compress and partly plane it off.  The surface stores gradients of pressure, not decorative harmony.',
     // файл ДОЛЖЕН лежать: public/images/farbkoerper/blau-2-2022.jpg
     image: withBase('images/farbkoerper/fkb - 05.jpg'),
     featured: true,
@@ -82,7 +82,7 @@ export const artworks: Artwork[] = [
     technique: 'mixed media on panel',
     dimensions: '41 x 60 x 0.6 cm',
     series: 'Farbkörper',
-    description: 'Pigment behaves here as matter. I layer, compress and partly plane it off.',
+    description: 'Pigment behaves here as matter. I layer, compress and partly plane it off.  The surface stores gradients of pressure, not decorative harmony.',
     // файл ДОЛЖЕН лежать: public/images/farbkoerper/blau-2-2022.jpg
     image: withBase('images/farbkoerper/fkb - 06.jpg'),
     featured: true,
