@@ -41,9 +41,9 @@ const Home: React.FC = () => {
                 >
                   Exploring the
                   <span className="block italic font-light text-gray-600">
-                    liminal spaces
+                    balance between control and chaos
                   </span>
-                  between emotion
+                  while using acrylics, organics and sounds.
                   <span className="block">& form</span>
                 </motion.h1>
               </div>
