@@ -17,16 +17,76 @@ export interface Artwork {
 export const artworks: Artwork[] = [
   {
     id: 'fk-1',
-    title: 'blau 2 (Farbkörper I)',
+    title: 'Fkb - 01 (Farbkörper I)',
     year: 2022,
     technique: 'mixed media',
     dimensions: '61 × 59 cm',
     series: 'Farbkörper',
     description: '—',
     // файл ДОЛЖЕН лежать: public/images/farbkoerper/blau-2-2022.jpg
-    image: withBase('images/farb/blau.jpg'),
+    image: withBase('images/farb/Fkb-01.jpg'),
     featured: true,
   },
+  {
+    id: 'fk-2',
+    title: 'Fkb - 02 (Farbkörper II)',
+    year: 2022,
+    technique: 'mixed media',
+    dimensions: '61 × 59 cm',
+    series: 'Farbkörper',
+    description: '—',
+    // файл ДОЛЖЕН лежать: public/images/farbkoerper/blau-2-2022.jpg
+    image: withBase('images/farb/Fkb-02.jpg'),
+    featured: true,
+  }, 
+  {
+    id: 'fk-3',
+    title: 'Fkb - 03 (Farbkörper III)',
+    year: 2022,
+    technique: 'mixed media',
+    dimensions: '61 × 59 cm',
+    series: 'Farbkörper',
+    description: '—',
+    // файл ДОЛЖЕН лежать: public/images/farbkoerper/blau-2-2022.jpg
+    image: withBase('images/farb/Fkb-03.jpg'),
+    featured: true,
+  },
+  {
+    id: 'fk-4',
+    title: 'Fkb - 04 (Farbkörper IV)',
+    year: 2022,
+    technique: 'mixed media',
+    dimensions: '61 × 59 cm',
+    series: 'Farbkörper',
+    description: '—',
+    // файл ДОЛЖЕН лежать: public/images/farbkoerper/blau-2-2022.jpg
+    image: withBase('images/farb/Fkb-04.jpg'),
+    featured: true,
+  },
+  {
+    id: 'fk-5',
+    title: 'Fkb - 05 (Farbkörper V)',
+    year: 2022,
+    technique: 'mixed media',
+    dimensions: '61 × 59 cm',
+    series: 'Farbkörper',
+    description: '—',
+    // файл ДОЛЖЕН лежать: public/images/farbkoerper/blau-2-2022.jpg
+    image: withBase('images/farb/Fkb-05.jpg'),
+    featured: true,
+  },
+  {
+    id: 'fk-6',
+    title: 'Fkb - 06 (Farbkörper VI)',
+    year: 2022,
+    technique: 'mixed media',
+    dimensions: '61 × 59 cm',
+    series: 'Farbkörper',
+    description: '—',
+    // файл ДОЛЖЕН лежать: public/images/farbkoerper/blau-2-2022.jpg
+    image: withBase('images/farb/Fkb-06.jpg'),
+    featured: true,
+  },  
   {
     id: 'pg-1',
     title: 'panel 01',
