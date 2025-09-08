@@ -24,7 +24,7 @@ export const artworks: Artwork[] = [
     price: '€3,200',
     series: 'Farbkoerper',
     description: 'A profound exploration of solitude and reflection, where azure tones merge with subtle earth pigments to create a meditative space that invites introspection.',
-    image: withBase(imagePath('farbkoerper', 'blau-2_2022_61x59.jpg')),
+    image: withBase(imagePath('farbkoerper', 'blau-2_2022_61x59')),
     featured: true
   },
   {
