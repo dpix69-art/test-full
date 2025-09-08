@@ -86,7 +86,7 @@ const CV: React.FC = () => {
   ];
 
   return (
-    <main className="max-w-4xl mx-auto px-8 py-16">
+    <main className="max-w-4xl mx-auto px-8 py-16 pt-32">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -149,9 +149,9 @@ const CV: React.FC = () => {
           className="mt-16 pt-16 border-t border-gray-100"
         >
           <p className="text-sm font-light text-gray-600 leading-relaxed">
-            Born in Milan, Italy, 1996. Lives and works in Milan.
+             Lives and works in Stuttgart.
             <br />
-            For complete exhibition history and collection information, please contact the studio.
+            For collection information, please contact the studio.
           </p>
         </motion.div>
       </motion.div>
