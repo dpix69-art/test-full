@@ -101,14 +101,14 @@ const Contact: React.FC = () => {
             <ul className="space-y-3 text-base font-light text-gray-700">
               <li>• Original artwork sales</li>
               {/* <li>• Commission paintings</li> */}
-              {/* <li>• Custom sound compositions</li> */}
+              <li>• Custom sound compositions</li>
               <li>• Exhibition collaborations</li>
               {/* <li>• Art consultation</li> */}
-              <li>• Studio visits by appointment</li>
+              {/* <li>• Studio visits by appointment</li> */}
             </ul>
           </div>
 
-          <div>
+          {/* <div>
             <h3 className="text-xl font-light mb-6 tracking-wide">
               Studio Visits
             </h3>
@@ -119,9 +119,9 @@ const Contact: React.FC = () => {
             <p className="text-sm text-gray-600 font-light">
               Please allow 48 hours notice for scheduling.
             </p>
-          </div>
+          </div> */}
 
-          <div>
+          {/* <div>
             <h3 className="text-xl font-light mb-6 tracking-wide">
               Press & Media
             </h3>
@@ -129,7 +129,7 @@ const Contact: React.FC = () => {
               High-resolution images, artist statement, and biographical information 
               available upon request. Please specify intended use and publication details.
             </p>
-          </div>
+          </div> */}
         </div>
       </motion.div>
 
