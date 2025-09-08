@@ -4,7 +4,7 @@ import { Copy, Check } from 'lucide-react';
 
 const Contact: React.FC = () => {
   const [copied, setCopied] = useState(false);
-  const email = 'elena.marchetti@studio.com';
+  const email = 'hi@kremenskii.art';
 
   const handleCopyEmail = async () => {
     try {
@@ -74,8 +74,8 @@ const Contact: React.FC = () => {
                 STUDIO
               </h3>
               <div className="text-base font-light text-gray-700 space-y-1">
-                <p>Via Brera, 28</p>
-                <p>20121 Stuttgart, Germany</p>
+                <p>Ressestr. </p>
+                <p>70599 Stuttgart, Germany</p>
               </div>
             </div>
 
@@ -100,10 +100,10 @@ const Contact: React.FC = () => {
             </h3>
             <ul className="space-y-3 text-base font-light text-gray-700">
               <li>• Original artwork sales</li>
-              <li>• Commission paintings</li>
-              <li>• Custom sound compositions</li>
+              {/* <li>• Commission paintings</li> */}
+              {/* <li>• Custom sound compositions</li> */}
               <li>• Exhibition collaborations</li>
-              <li>• Art consultation</li>
+              {/* <li>• Art consultation</li> */}
               <li>• Studio visits by appointment</li>
             </ul>
           </div>
