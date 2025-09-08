@@ -24,7 +24,7 @@ const Header: React.FC = () => {
               <div className="w-8 h-8 bg-black rounded-full group-hover:scale-110 transition-transform duration-300"></div>
               <div className="hidden sm:block">
                 <span className="text-xl font-light tracking-[-0.02em] text-black">
-                  Elena Marchetti
+                  Dmitrii Kremenskii
                 </span>
               </div>
               <div className="sm:hidden">
