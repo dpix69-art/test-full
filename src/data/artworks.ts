@@ -36,52 +36,8 @@ export const artworks: Artwork[] = [
     price: '€2,800',
     series: 'City Symphonies',
     description: 'Dynamic composition capturing the pulse of metropolitan life through layered textures and bold geometric forms.',
-    image: withBase(imagePath('farbkoerper', 'Contemplation in Blue')),
+    image: withBase(imagePath('plywood-gravel', 'Contemplation in Blue')),
     featured: true
-  },
-  {
-    id: '3',
-    title: 'plywood-gravel',
-    year: 2023,
-    technique: 'Oil on canvas',
-    dimensions: '80 × 80 cm',
-    price: '€2,400',
-    description: 'Monochromatic study in tension and release, exploring the quiet power of understated emotion.',
-     image: withBase('images/emotional-landscapes/contemplation-in-blue.webp'),
-  },
-  {
-    id: '4',
-    title: 'Memory Fragments',
-    year: 2024,
-    technique: 'Mixed media on paper',
-    dimensions: '70 × 50 cm',
-    price: '€1,800',
-    series: 'Temporal Studies',
-    description: 'Delicate layering of translucent materials creates a palimpsest of remembered moments.',
-    image: 'https://images.pexels.com/photos/1194420/pexels-photo-1194420.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
-  },
-  {
-    id: '5',
-    title: 'Intersection',
-    year: 2023,
-    technique: 'Oil on canvas',
-    dimensions: '110 × 80 cm',
-    price: '€2,600',
-    series: 'City Symphonies',
-    description: 'Geometric abstraction meets organic forms in this exploration of urban and natural boundaries.',
-    image: 'https://images.pexels.com/photos/1070527/pexels-photo-1070527.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    featured: true
-  },
-  {
-    id: '6',
-    title: 'Ethereal Dawn',
-    year: 2024,
-    technique: 'Watercolor on paper',
-    dimensions: '60 × 40 cm',
-    price: '€1,400',
-    series: 'Emotional Landscapes',
-    description: 'Subtle gradations of light capture the transformative moment between night and day.',
-    image: 'https://images.pexels.com/photos/1187079/pexels-photo-1187079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   }
 ];
 
