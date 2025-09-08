@@ -3,7 +3,6 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [ main ]
-  # Позволяет запускать деплой руками из вкладки Actions
   workflow_dispatch:
 
 permissions:
@@ -11,16 +10,9 @@ permissions:
   pages: write
   id-token: write
 
-# Не держим параллельные деплои
 concurrency:
   group: "pages"
   cancel-in-progress: true
-
-env:
-  NODE_VERSION: '20'
-  BUILD_DIR: dist
-  # ВАЖНО: если переименуешь репозиторий — поменяй путь ниже
-  PAGES_BASE_PATH: '/test-full/'
 
 jobs:
   build:
@@ -32,11 +24,10 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ env.NODE_VERSION }}
+          node-version: 20
           cache: 'npm'
 
       - name: Install dependencies
-        # Если нет package-lock.json, fallback на npm install
         run: |
           if [ -f package-lock.json ]; then
             npm ci
@@ -44,61 +35,31 @@ jobs:
             npm install
           fi
 
-      - name: Build (Vite)
-        # Пробрасываем base, чтобы ассеты собирались в подпапку /test-full/
-        run: npm run build -- --base=${{ env.PAGES_BASE_PATH }}
+      - name: Build (Vite with base)
+        run: npm run build -- --base=/test-full/
 
-      - name: Copy legacy /images into build (optional)
-        # Если у тебя есть папка images/ (НЕ в public/), копируем её в би
-name: Deploy to GitHub Pages
+      - name: Copy images folder into build (if exists)
+        run: |
+          mkdir -p dist/images
+          if [ -d "images" ]; then
+            cp -R images/* dist/images/ || true
+          fi
 
-on:
-  push:
-    branches: [ main ]
-  # Позволяет запускать деплой руками из вкладки Actions
-  workflow_dispatch:
+      # (опционально) Посмотреть, что попало в билд
+      # - name: Debug dist
+      #   run: ls -R dist || true
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-# Не держим параллельные деплои
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
-
-env:
-  NODE_VERSION: '20'
-  BUILD_DIR: dist
-  # ВАЖНО: если переименуешь репозиторий — поменяй путь ниже
-  PAGES_BASE_PATH: '/test-full/'
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          node-version: ${{ env.NODE_VERSION }}
-          cache: 'npm'
+          path: dist
 
-      - name: Install dependencies
-        # Если нет package-lock.json, fallback на npm install
-        run: |
-          if [ -f package-lock.json ]; then
-            npm ci
-          else
-            npm install
-          fi
-
-      - name: Build (Vite)
-        # Пробрасываем base, чтобы ассеты собирались в подпапку /test-full/
-        run: npm run build -- --base=${{ env.PAGES_BASE_PATH }}
-
-      - name: Copy legacy /images into build (optional)
-        # Если у тебя есть папка images/ (НЕ в public/), копируем её в би
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
