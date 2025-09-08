@@ -88,7 +88,7 @@ export const artworks: Artwork[] = [
     featured: true,
   },  
   {
-    id: 'pg-1',
+    id: 'pg-2',
     title: 'panel 01',
     year: 2023,
     technique: 'plywood, gravel, sand',
