@@ -214,7 +214,7 @@ const Gallery: React.FC = () => {
                             {artwork.dimensions}
                           </div>
                           <div>
-                            <span className="block text-xs text-gray-400 uppercase tracking-wide mb-1">Price</span>
+                            {/* <span className="block text-xs text-gray-400 uppercase tracking-wide mb-1">Price</span> */}
                             <span className="text-black font-medium">{artwork.price}</span>
                           </div>
                         </div>
