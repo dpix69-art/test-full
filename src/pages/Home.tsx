@@ -43,7 +43,7 @@ const Home: React.FC = () => {
                   <span className="block italic font-light text-gray-600">
                     the site where
                   </span>
-                   that action
+                  action
                   <span className="block">is registered.</span>
                 </motion.h1>
               </div>
@@ -57,7 +57,7 @@ const Home: React.FC = () => {
                 <p className="text-lg font-light leading-relaxed text-gray-700">
                   I record experience; I do not release it.
                   Whether loss, fear, or elevation, an event remains in me as structure. I return to it
-                  and translate it into action: pressure, abrasion, layering, frequency. Material becomes the site where that action is registered.
+                  and translate it into action: pressure, abrasion, layering, frequency.
                 </p>
                 
                 <div className="flex items-center space-x-6">
