@@ -56,7 +56,7 @@ const Home: React.FC = () => {
               >
                 <p className="text-lg font-light leading-relaxed text-gray-700">
                   I explore the balance between control and chaos
-while using acrylics, organics and sounds.
+                  while using acrylics, organics and sounds.
                 </p>
                 
                 <div className="flex items-center space-x-6">

@@ -1,3 +1,6 @@
+import { withBase, imagePath } from '../lib/assets';
+image: withBase(imagePath('Farbkoeper','plywood-gravel', 'beton')),
+
 export interface Artwork {
   id: string;
   title: string;
@@ -14,37 +17,37 @@ export interface Artwork {
 export const artworks: Artwork[] = [
   {
     id: '1',
-    title: 'Contemplation in Blue',
-    year: 2024,
-    technique: 'Oil on canvas',
+    title: 'Farbkoerper',
+    year: 2022,
+    technique: 'Mixtecknic',
     dimensions: '120 × 90 cm',
     price: '€3,200',
-    series: 'Emotional Landscapes',
+    series: 'Farbkoerper',
     description: 'A profound exploration of solitude and reflection, where azure tones merge with subtle earth pigments to create a meditative space that invites introspection.',
-    image: 'https://images.pexels.com/photos/1187079/pexels-photo-1187079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: withBase('images/emotional-landscapes/contemplation-in-blue.webp'),
     featured: true
   },
   {
     id: '2',
-    title: 'Urban Rhythm',
+    title: 'Farbkoeper',
     year: 2024,
     technique: 'Acrylic and mixed media on canvas',
     dimensions: '100 × 150 cm',
     price: '€2,800',
     series: 'City Symphonies',
     description: 'Dynamic composition capturing the pulse of metropolitan life through layered textures and bold geometric forms.',
-    image: 'https://images.pexels.com/photos/1070527/pexels-photo-1070527.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+     image: withBase('images/emotional-landscapes/contemplation-in-blue.webp'),
     featured: true
   },
   {
     id: '3',
-    title: 'Silent Storm',
+    title: 'plywood-gravel',
     year: 2023,
     technique: 'Oil on canvas',
     dimensions: '80 × 80 cm',
     price: '€2,400',
     description: 'Monochromatic study in tension and release, exploring the quiet power of understated emotion.',
-    image: 'https://images.pexels.com/photos/1153213/pexels-photo-1153213.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+     image: withBase('images/emotional-landscapes/contemplation-in-blue.webp'),
   },
   {
     id: '4',
