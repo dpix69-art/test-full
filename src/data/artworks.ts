@@ -87,20 +87,162 @@ export const artworks: Artwork[] = [
     image: withBase('images/farbkoerper/fkb - 06.jpg'),
     featured: true,
   },  
+  // PGSRD
   {
-    id: 'pg-2',
-    title: 'panel 01',
+    id: 'PGSRD-Trc-01',
+    title: 'PGSRD-Trc 01',
     year: 2023,
     technique: 'plywood, gravel, sand',
-    dimensions: '—',
-    series: 'plywood-gravel',
+    dimensions: '21 × 29,7 × 0.4 cm',
+    series: 'PGSRD-Trc',
     description: '—',
     // файл ДОЛЖЕН лежать: public/images/plywood-gravel/panel-01.jpg
-    image: withBase('images/plywood-gravel/panel-01.jpg'),
+    image: withBase('images/pgsrd-trc/pgsrd-trc - 01.jpg'),
   },
-  // добавляй дальше по этому же паттерну
+  {
+     id: 'PGSRD-Trc-01',
+    title: 'PGSRD-Trc 01',
+    year: 2023,
+    technique: 'plywood, gravel, sand',
+    dimensions: '21 × 29,7 × 0.4 cm',
+    series: 'PGSRD-Trc',
+    description: '—',
+    // файл ДОЛЖЕН лежать: public/images/plywood-gravel/panel-01.jpg
+    image: withBase('images/pgsrd-trc/pgsrd-trc - 01.jpg'), 
+  },
+   {
+    id: 'PGSRD-Trc-02',
+    title: 'PGSRD-Trc 02',
+    year: 2023,
+    technique: 'plywood, gravel, sand',
+    dimensions: '21 × 29,7 × 0.4 cm',
+    series: 'PGSRD-Trc',
+    description: '—',
+    // файл ДОЛЖЕН лежать: public/images/plywood-gravel/panel-01.jpg
+    image: withBase('images/pgsrd-trc/pgsrd-trc - 02.jpg'), 
+  },
+   {
+    id: 'PGSRD-Trc-03',
+    title: 'PGSRD-Trc 03',
+    year: 2023,
+    technique: 'plywood, gravel, sand',
+    dimensions: '21 × 29,7 × 0.4 cm',
+    series: 'PGSRD-Trc',
+    description: '—',
+    // файл ДОЛЖЕН лежать: public/images/plywood-gravel/panel-01.jpg
+    image: withBase('images/pgsrd-trc/pgsrd-trc - 03.jpg'), 
+  },
+   {
+    id: 'PGSRD-Trc-04',
+    title: 'PGSRD-Trc 04',
+    year: 2023,
+    technique: 'plywood, gravel, sand',
+    dimensions: '21 × 29,7 × 0.4 cm',
+    series: 'PGSRD-Trc',
+    description: '—',
+    // файл ДОЛЖЕН лежать: public/images/plywood-gravel/panel-01.jpg
+    image: withBase('images/pgsrd-trc/pgsrd-trc - 04.jpg'), 
+  },
+   {
+    id: 'PGSRD-Trc-05',
+    title: 'PGSRD-Trc 05',
+    year: 2023,
+    technique: 'plywood, gravel, sand',
+    dimensions: '21 × 29,7 × 0.4 cm',
+    series: 'PGSRD-Trc',
+    description: '—',
+    // файл ДОЛЖЕН лежать: public/images/plywood-gravel/panel-01.jpg
+    image: withBase('images/pgsrd-trc/pgsrd-trc - 05.jpg'), 
+  },
+   {
+    id: 'PGSRD-Trc-06',
+    title: 'PGSRD-Trc 06',
+    year: 2023,
+    technique: 'plywood, gravel, sand',
+    dimensions: '21 × 29,7 × 0.4 cm',
+    series: 'PGSRD-Trc',
+    description: '—',
+    // файл ДОЛЖЕН лежать: public/images/plywood-gravel/panel-01.jpg
+    image: withBase('images/pgsrd-trc/pgsrd-trc - 06.jpg'), 
+  },
+   {
+    id: 'PGSRD-Trc-07',
+    title: 'PGSRD-Trc 07',
+    year: 2023,
+    technique: 'plywood, gravel, sand',
+    dimensions: '21 × 29,7 × 0.4 cm',
+    series: 'PGSRD-Trc',
+    description: '—',
+    // файл ДОЛЖЕН лежать: public/images/plywood-gravel/panel-01.jpg
+    image: withBase('images/pgsrd-trc/pgsrd-trc - 07.jpg'), 
+  },
+   {
+    id: 'PGSRD-Trc-08',
+    title: 'PGSRD-Trc 08',
+    year: 2023,
+    technique: 'plywood, gravel, sand',
+    dimensions: '21 × 29,7 × 0.4 cm',
+    series: 'PGSRD-Trc',
+    description: '—',
+    // файл ДОЛЖЕН лежать: public/images/plywood-gravel/panel-01.jpg
+    image: withBase('images/pgsrd-trc/pgsrd-trc - 08.jpg'), 
+  },
+   {
+    id: 'PGSRD-Trc-09',
+    title: 'PGSRD-Trc 09',
+    year: 2023,
+    technique: 'plywood, gravel, sand',
+    dimensions: '21 × 29,7 × 0.4 cm',
+    series: 'PGSRD-Trc',
+    description: '—',
+    // файл ДОЛЖЕН лежать: public/images/plywood-gravel/panel-01.jpg
+    image: withBase('images/pgsrd-trc/pgsrd-trc - 09.jpg'), 
+  },
+   {
+    id: 'PGSRD-Trc-10',
+    title: 'PGSRD-Trc 10',
+    year: 2023,
+    technique: 'plywood, gravel, sand',
+    dimensions: '21 × 29,7 × 0.4 cm',
+    series: 'PGSRD-Trc',
+    description: '—',
+    // файл ДОЛЖЕН лежать: public/images/plywood-gravel/panel-01.jpg
+    image: withBase('images/pgsrd-trc/pgsrd-trc - 10.jpg'), 
+  },
+   {
+    id: 'PGSRD-Trc-11',
+    title: 'PGSRD-Trc 11',
+    year: 2023,
+    technique: 'plywood, gravel, sand',
+    dimensions: '21 × 29,7 × 0.4 cm',
+    series: 'PGSRD-Trc',
+    description: '—',
+    // файл ДОЛЖЕН лежать: public/images/plywood-gravel/panel-01.jpg
+    image: withBase('images/pgsrd-trc/pgsrd-trc - 11.jpg'), 
+  },
+   {
+    id: 'PGSRD-Trc-12',
+    title: 'PGSRD-Trc 12',
+    year: 2023,
+    technique: 'plywood, gravel, sand',
+    dimensions: '21 × 29,7 × 0.4 cm',
+    series: 'PGSRD-Trc',
+    description: '—',
+    // файл ДОЛЖЕН лежать: public/images/plywood-gravel/panel-01.jpg
+    image: withBase('images/pgsrd-trc/pgsrd-trc - 12.jpg'), 
+  },
+   {
+    id: 'PGSRD-Trc-13',
+    title: 'PGSRD-Trc 13',
+    year: 2023,
+    technique: 'plywood, gravel, sand',
+    dimensions: '21 × 29,7 × 0.4 cm',
+    series: 'PGSRD-Trc',
+    description: '—',
+    // файл ДОЛЖЕН лежать: public/images/plywood-gravel/panel-01.jpg
+    image: withBase('images/pgsrd-trc/pgsrd-trc - 13.jpg'), 
+  }
 ];
-
 
 export const getSeries = () => {
   const series = artworks
