@@ -1,13 +1,14 @@
-
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// export default defineConfig({
-//   base: '/test-full/',   // <— ВАЖНО: со слэшами с двух сторон
-//   plugins: [react()],
-// });
 export default defineConfig({
+  // ВАЖНО: если репозиторий называется иначе — замени имя тут
   base: '/test-full/',
-  publicDir: 'public', // ← жёстко укажи
-});
-
+  // Явно укажем публичную папку, чтобы Vite скопировал её в билд
+  publicDir: 'public',
+  plugins: [react()],
+  build: {
+    outDir: 'dist',
+    emptyOutDir: true,
+  },
+})
