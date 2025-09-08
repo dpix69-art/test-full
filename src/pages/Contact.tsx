@@ -32,7 +32,7 @@ const Contact: React.FC = () => {
             </h1>
             <p className="text-lg font-light text-gray-600 leading-relaxed">
               For inquiries about available works, commissions, exhibitions, or collaborations, 
-              please don't hesitate to get in touch.
+              please get in touch.
             </p>
           </div>
 
