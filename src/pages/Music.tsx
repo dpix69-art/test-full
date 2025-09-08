@@ -45,10 +45,10 @@ const Music: React.FC = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-lg font-light text-gray-600 mb-16 leading-relaxed"
-        >
-          Physical controllers extend the instrument list: a contact‑miked metal resonator where stones or sand act as percussion, and an electromagnetic‑fan system whose field, captured by an antenna, modulates other devices. 
-          The performance is recorded as‑is.
-          Transparent level adjustment, no structural editing.
+        >Physical controllers extend the instrument list: 
+        a contact‑miked metal resonator where stones or sand act as percussion, and an electromagnetic‑fan system whose field, captured by an antenna, modulates other devices. 
+        The performance is recorded as‑is.
+        Transparent level adjustment, no structural editing.
         </motion.p>
 
         <div className="space-y-16">
