@@ -16,29 +16,28 @@ export interface Artwork {
 
 export const artworks: Artwork[] = [
   {
-    id: '1',
-    title: 'Farbkoerper',
+    id: 'fk-1',
+    title: 'blau 2 (Farbkörper I)',
     year: 2022,
-    technique: 'Mixtecknic',
-    dimensions: '120 × 90 cm',
-    price: '€3,200',
-    series: 'Farbkoerper',
-    description: 'A profound exploration of solitude and reflection, where azure tones merge with subtle earth pigments to create a meditative space that invites introspection.',
-    image: withBase(imagePath('farbkoerper', 'blau-2_2022_61x59')),
-    featured: true
+    technique: 'mixed media',
+    dimensions: '61 × 59 cm',
+    series: 'Farbkörper',
+    description: '…',
+    // → public/images/farbkoerper/blau-2.jpg
+    image: withBase(imagePath('Farbkörper', 'blau 2')),
+    featured: true,
   },
   {
-    id: '2',
-    title: 'Farbkoeper',
-    year: 2024,
-    technique: 'Acrylic and mixed media on canvas',
-    dimensions: '100 × 150 cm',
-    price: '€2,800',
-    series: 'City Symphonies',
-    description: 'Dynamic composition capturing the pulse of metropolitan life through layered textures and bold geometric forms.',
-    image: withBase(imagePath('plywood-gravel', 'Contemplation in Blue')),
-    featured: true
-  }
+    id: 'pg-1',
+    title: 'panel 01',
+    year: 2023,
+    technique: 'plywood, gravel, sand',
+    dimensions: '—',
+    series: 'plywood-gravel',
+    description: '…',
+    // → public/images/plywood-gravel/panel-01.jpg
+    image: withBase(imagePath('plywood-gravel', 'panel 01')),
+  },
 ];
 
 export const getSeries = () => {
