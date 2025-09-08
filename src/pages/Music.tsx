@@ -30,7 +30,7 @@ const Music: React.FC = () => {
   ];
 
   return (
-    <main className="max-w-4xl mx-auto px-8 py-16">
+    <main className="max-w-4xl mx-auto px-8 py-16 pt-32">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
