@@ -39,12 +39,12 @@ const Home: React.FC = () => {
                   transition={{ duration: 0.8, delay: 0.4 }}
                   className="text-5xl lg:text-7xl xl:text-8xl font-extralight tracking-[-0.03em] leading-[0.85] text-black"
                 >
-                  Exploring the
+                  Material becomes
                   <span className="block italic font-light text-gray-600">
-                    balance between control and chaos
+                    the site where
                   </span>
-                  while using acrylics, organics.
-                  <span className="block">& sounds</span>
+                   that action
+                  <span className="block">is registered.</span>
                 </motion.h1>
               </div>
               
@@ -55,8 +55,9 @@ const Home: React.FC = () => {
                 className="max-w-lg space-y-6"
               >
                 <p className="text-lg font-light leading-relaxed text-gray-700">
-                  I explore the balance between control and chaos
-                  while using acrylics, organics and sounds.
+                  I record experience; I do not release it.
+                  Whether loss, fear, or elevation, an event remains in me as structure. I return to it
+                  and translate it into action: pressure, abrasion, layering, frequency. Material becomes the site where that action is registered.
                 </p>
                 
                 <div className="flex items-center space-x-6">
