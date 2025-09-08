@@ -43,8 +43,8 @@ const Home: React.FC = () => {
                   <span className="block italic font-light text-gray-600">
                     the site where
                   </span>
-                  action
-                  <span className="block">is registered.</span>
+                  action is registered.
+                  {/* <span className="block"></span> */}
                 </motion.h1>
               </div>
               
