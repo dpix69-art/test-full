@@ -1,5 +1,5 @@
-import { withBase, imagePath } from '../lib/assets';
-
+// src/data/artworks.ts
+import { withBase } from '../lib/assets';
 
 export interface Artwork {
   id: string;
@@ -7,9 +7,9 @@ export interface Artwork {
   year: number;
   technique: string;
   dimensions: string;
-  price: string;
-  series?: string;
-  description: string;
+  price?: string;
+  series: string;
+  description?: string;
   image: string;
   featured?: boolean;
 }
@@ -22,9 +22,9 @@ export const artworks: Artwork[] = [
     technique: 'mixed media',
     dimensions: '61 × 59 cm',
     series: 'Farbkörper',
-    description: '…',
-    // → public/images/farbkoerper/blau-2.jpg
-    image: withBase(imagePath('farb', 'blau')),
+    description: '—',
+    // файл ДОЛЖЕН лежать: public/images/farbkoerper/blau-2-2022.jpg
+    image: withBase('images/farb/blau.jpg'),
     featured: true,
   },
   {
@@ -34,11 +34,13 @@ export const artworks: Artwork[] = [
     technique: 'plywood, gravel, sand',
     dimensions: '—',
     series: 'plywood-gravel',
-    description: '…',
-    // → public/images/plywood-gravel/panel-01.jpg
-    image: withBase(imagePath('plywood-gravel', 'panel 01')),
+    description: '—',
+    // файл ДОЛЖЕН лежать: public/images/plywood-gravel/panel-01.jpg
+    image: withBase('images/plywood-gravel/panel-01.jpg'),
   },
+  // добавляй дальше по этому же паттерну
 ];
+
 
 export const getSeries = () => {
   const series = artworks

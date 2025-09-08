@@ -2,7 +2,7 @@
 export const withBase = (path: string) =>
   `${import.meta.env.BASE_URL}${path.replace(/^\/+/, '')}`;
 
-// Умляуты → ASCII, пробелы/символы → дефисы
+// (Не обязателен для начала, но пусть будет на будущее)
 export const slug = (s: string) =>
   s
     .replace(/ä/g,'ae').replace(/ö/g,'oe').replace(/ü/g,'ue')
@@ -11,6 +11,5 @@ export const slug = (s: string) =>
     .normalize('NFKD').replace(/[\u0300-\u036f]/g,'')
     .toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'');
 
-// По умолчанию используем JPG
 export const imagePath = (series: string, title: string, ext: string = 'jpg') =>
   `images/${slug(series)}/${slug(title)}.${ext}`;
