@@ -24,7 +24,7 @@ export const artworks: Artwork[] = [
     series: 'Farbkörper',
     description: '—',
     // файл ДОЛЖЕН лежать: public/images/farbkoerper/blau-2-2022.jpg
-    image: withBase('images/farb/Fkb - 01.jpg'),
+    image: withBase('images/farb/fkb - 01.jpg'),
     featured: true,
   },
   {
@@ -36,7 +36,7 @@ export const artworks: Artwork[] = [
     series: 'Farbkörper',
     description: '—',
     // файл ДОЛЖЕН лежать: public/images/farbkoerper/blau-2-2022.jpg
-    image: withBase('images/farb/Fkb - 02.jpg'),
+    image: withBase('images/farb/fkb - 02.jpg'),
     featured: true,
   }, 
   {
@@ -48,7 +48,7 @@ export const artworks: Artwork[] = [
     series: 'Farbkörper',
     description: '—',
     // файл ДОЛЖЕН лежать: public/images/farbkoerper/blau-2-2022.jpg
-    image: withBase('images/farb/Fkb - 03.jpg'),
+    image: withBase('images/farb/fkb - 03.jpg'),
     featured: true,
   },
   {
@@ -60,7 +60,7 @@ export const artworks: Artwork[] = [
     series: 'Farbkörper',
     description: '—',
     // файл ДОЛЖЕН лежать: public/images/farbkoerper/blau-2-2022.jpg
-    image: withBase('images/farb/Fkb - 04.jpg'),
+    image: withBase('images/farb/fkb - 04.jpg'),
     featured: true,
   },
   {
@@ -72,7 +72,7 @@ export const artworks: Artwork[] = [
     series: 'Farbkörper',
     description: '—',
     // файл ДОЛЖЕН лежать: public/images/farbkoerper/blau-2-2022.jpg
-    image: withBase('images/farb/Fkb - 05.jpg'),
+    image: withBase('images/farb/fkb - 05.jpg'),
     featured: true,
   },
   {
@@ -84,7 +84,7 @@ export const artworks: Artwork[] = [
     series: 'Farbkörper',
     description: '—',
     // файл ДОЛЖЕН лежать: public/images/farbkoerper/blau-2-2022.jpg
-    image: withBase('images/farb/Fkb - 06.jpg'),
+    image: withBase('images/farb/fkb - 06.jpg'),
     featured: true,
   },  
   {
