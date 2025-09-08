@@ -2,9 +2,14 @@
 export const withBase = (path: string) =>
   `${import.meta.env.BASE_URL}${path.replace(/^\/+/, '')}`;
 
+// Нормируем имена папок/файлов (учтём умляуты в немецком)
 export const slug = (s: string) =>
-  s.normalize('NFKD').replace(/[\u0300-\u036f]/g,'')
-   .toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'');
+  s
+    .replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue')
+    .replace(/Ä/g, 'Ae').replace(/Ö/g, 'Oe').replace(/Ü/g, 'Ue')
+    .replace(/ß/g, 'ss')
+    .normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 
-export const imagePath = (series: string, title: string, ext = 'jpg') =>
+export const imagePath = (series: string, title: string, ext: string = 'jpg') =>
   `images/${slug(series)}/${slug(title)}.${ext}`;

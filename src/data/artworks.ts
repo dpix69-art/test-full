@@ -1,5 +1,5 @@
 import { withBase, imagePath } from '../lib/assets';
-image: withBase(imagePath('Farbkoeper','plywood-gravel', 'beton')),
+
 
 export interface Artwork {
   id: string;
@@ -24,7 +24,7 @@ export const artworks: Artwork[] = [
     price: '€3,200',
     series: 'Farbkoerper',
     description: 'A profound exploration of solitude and reflection, where azure tones merge with subtle earth pigments to create a meditative space that invites introspection.',
-    image: withBase('images/emotional-landscapes/contemplation-in-blue.webp'),
+    image: withBase(imagePath('farbkoerper', 'blau-2_2022_61x59')),
     featured: true
   },
   {
@@ -36,7 +36,7 @@ export const artworks: Artwork[] = [
     price: '€2,800',
     series: 'City Symphonies',
     description: 'Dynamic composition capturing the pulse of metropolitan life through layered textures and bold geometric forms.',
-     image: withBase('images/emotional-landscapes/contemplation-in-blue.webp'),
+    image: withBase(imagePath('farbkoerper', 'Contemplation in Blue')),
     featured: true
   },
   {
