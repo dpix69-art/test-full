@@ -32,8 +32,8 @@ const Gallery: React.FC = () => {
                 Gallery
               </h1>
               <p className="text-lg font-light text-gray-600 max-w-2xl">
-                A comprehensive collection of paintings exploring the intersection of emotion, 
-                form, and contemporary expression through various series and individual works.
+                I explore the balance between control and chaos
+                while using  acrylics, organics and sounds.
               </p>
             </div>
             

@@ -75,7 +75,7 @@ const Contact: React.FC = () => {
               </h3>
               <div className="text-base font-light text-gray-700 space-y-1">
                 <p>Via Brera, 28</p>
-                <p>20121 Milan, Italy</p>
+                <p>20121 Stuttgart, Germany</p>
               </div>
             </div>
 
@@ -84,8 +84,8 @@ const Contact: React.FC = () => {
                 REPRESENTATION
               </h3>
               <div className="text-base font-light text-gray-700 space-y-2">
-                <p>Galleria Contemporanea</p>
-                <p>gallery@contemporanea.it</p>
+                <p>Galleria Elseins</p>
+                <p>info@elseins-gallery.com</p>
                 <p>+39 02 8646 2871</p>
               </div>
             </div>

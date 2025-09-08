@@ -55,8 +55,8 @@ const Home: React.FC = () => {
                 className="max-w-lg space-y-6"
               >
                 <p className="text-lg font-light leading-relaxed text-gray-700">
-                  Through painting and sound, I create immersive experiences that invite 
-                  contemplation and connection with the subtle rhythms of our inner worlds.
+                  I explore the balance between control and chaos
+while using acrylics, organics and sounds.
                 </p>
                 
                 <div className="flex items-center space-x-6">
@@ -69,8 +69,8 @@ const Home: React.FC = () => {
                   </Link>
                   
                   <div className="text-sm font-light text-gray-500 space-y-1">
-                    <div>Milan, Italy</div>
-                    <div>Est. 2022</div>
+                    <div>Stuttgart, Germany</div>
+                    <div>Est. 2023</div>
                   </div>
                 </div>
               </motion.div>
