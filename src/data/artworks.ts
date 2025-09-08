@@ -80,7 +80,7 @@ export const artworks: Artwork[] = [
     title: 'Fkb - 06 (Farbkörper VI)',
     year: 2022,
     technique: 'mixed media',
-    dimensions: '61 × 59 cm',
+    dimensions: '41 × 60 cm',
     series: 'Farbkörper',
     description: '—',
     // файл ДОЛЖЕН лежать: public/images/farbkoerper/blau-2-2022.jpg
