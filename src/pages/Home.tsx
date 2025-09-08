@@ -43,8 +43,8 @@ const Home: React.FC = () => {
                   <span className="block italic font-light text-gray-600">
                     balance between control and chaos
                   </span>
-                  while using acrylics, organics and sounds.
-                  <span className="block">& form</span>
+                  while using acrylics, organics.
+                  <span className="block">& sounds</span>
                 </motion.h1>
               </div>
               
