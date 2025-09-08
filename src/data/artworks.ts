@@ -139,7 +139,7 @@ export const artworks: Artwork[] = [
     technique: 'Gravel, sand, road dust on plywood',
     dimensions: '21 × 29,7 × 0.4 cm',
     series: 'PGSRD-Trc',
-    description: '—',
+    description: 'Plywood, gravel and road dust register direct actions — imprint, friction, displacement. This is not metaphor: it is a topography of actual interaction. The crushed stone leaves permanent scars; plywood absorbs the impact without breaking.',
     // файл ДОЛЖЕН лежать: public/images/plywood-gravel/panel-01.jpg
     image: withBase('images/pgsrd-trc/pgsrd-trc - 05.jpg'), 
   },
