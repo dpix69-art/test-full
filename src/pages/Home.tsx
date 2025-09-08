@@ -70,8 +70,8 @@ const Home: React.FC = () => {
                   </Link>
                   
                   <div className="text-sm font-light text-gray-500 space-y-1">
-                    <div>Stuttgart, Germany</div>
-                    <div>Est. 2023</div>
+                    {/* <div>Stuttgart, Germany</div> */}
+                    {/* <div>Est. 2023</div> */}
                   </div>
                 </div>
               </motion.div>
