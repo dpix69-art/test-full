@@ -24,7 +24,7 @@ export const artworks: Artwork[] = [
     series: 'Farbkörper',
     description: '…',
     // → public/images/farbkoerper/blau-2.jpg
-    image: withBase(imagePath('farbkörper', 'blau-2-2022')),
+    image: withBase(imagePath('farbkoerper', 'blau-2-2022')),
     featured: true,
   },
   {
