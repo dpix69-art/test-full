@@ -79,7 +79,7 @@ const Contact: React.FC = () => {
               </div>
             </div>
 
-            <div>
+            {/* <div>
               <h3 className="text-sm font-medium text-gray-900 mb-4 tracking-wide">
                 REPRESENTATION
               </h3>
@@ -88,7 +88,7 @@ const Contact: React.FC = () => {
                 <p>info@elseins-gallery.com</p>
                 <p>+39 02 8646 2871</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
