@@ -8,7 +8,7 @@ const Home: React.FC = () => {
   const featuredWorks = artworks.filter(artwork => artwork.featured);
 
   return (
-    <main className="pt-20 lg:pt-24">
+    <main className="section-pad pt-20 lg:pt-24">
       {/* Hero Section */}
       <section className="min-h-screen flex items-center">
         <div className="max-w-8xl mx-auto px-6 lg:px-12 w-full">
